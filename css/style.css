@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+#clock {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#greeting {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-form {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-form input[type="text"] {
+  font-size: 40px;
+  width: 80%;
+  border: none;
+}
+
+#todo-form {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#todo-form input[type="text"] {
+  font-size: 24px;
+  width: 100%;
+  border: none;
+}
+
+#todo-list {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+
+#quote {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#weather {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 100%;
+}
